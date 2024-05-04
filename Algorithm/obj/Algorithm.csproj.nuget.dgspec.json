@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CSDataStructAlgorithm\\Algorithm\\Algorithm\\Algorithm.csproj": {}
+    "D:\\Project\\Algorithm\\Algorithm\\Algorithm.csproj": {}
   },
   "projects": {
-    "C:\\CSDataStructAlgorithm\\Algorithm\\Algorithm\\Algorithm.csproj": {
+    "D:\\Project\\Algorithm\\Algorithm\\Algorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSDataStructAlgorithm\\Algorithm\\Algorithm\\Algorithm.csproj",
+        "projectUniqueName": "D:\\Project\\Algorithm\\Algorithm\\Algorithm.csproj",
         "projectName": "Algorithm",
-        "projectPath": "C:\\CSDataStructAlgorithm\\Algorithm\\Algorithm\\Algorithm.csproj",
+        "projectPath": "D:\\Project\\Algorithm\\Algorithm\\Algorithm.csproj",
         "packagesPath": "C:\\Users\\borad\\.nuget\\packages\\",
-        "outputPath": "C:\\CSDataStructAlgorithm\\Algorithm\\Algorithm\\obj\\",
+        "outputPath": "D:\\Project\\Algorithm\\Algorithm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -54,12 +54,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }
